@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f7ff;
+            color: #222;
+        }
+
+        header {
+            background: #6c63ff;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        .accueil {
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .accueil h1 {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .accueil h1 span {
+            color: #6c63ff;
+        }
+
+        .accueil p {
+            font-size: 19px;
+            margin-bottom: 30px;
+        }
+
+        .bouton {
+            display: inline-block;
+            background: #6c63ff;
+            color: white;
+            padding: 14px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 70px 8%;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 32px;
+            margin-bottom: 25px;
+            color: #6c63ff;
+        }
+
+        .competences {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .carte {
+            background: white;
+            padding: 25px;
+            width: 180px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .carte h3 {
+            color: #6c63ff;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Mon Portfolio</h2>
+
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#apropos">À propos</a>
+            <a href="#competences">Compétences</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="accueil" id="accueil">
+        <div>
+            <h1>Bonjour, je suis <span>Aminata</span> 👋🏽</h1>
+
+            <p>
+                Jeune diplômée en Informatique Développeur d’Applications
+            </p>
+
+            <a href="#competences" class="bouton">
+                Découvrir mes compétences
+            </a>
+        </div>
+    </section>
+
+    <section id="apropos">
+        <h2>À propos de moi</h2>
+
+        <p>
+            Passionnée par l'informatique et le développement,
+            je souhaite mettre mes compétences en pratique et
+            continuer à apprendre de nouvelles technologies.
+        </p>
+    </section>
+
+    <section id="competences">
+        <h2>Mes compétences</h2>
+
+        <div class="competences">
+
+            <div class="carte">
+                <h3>HTML</h3>
+                <p>Création de pages web</p>
+            </div>
+
+            <div class="carte">
+                <h3>CSS</h3>
+                <p>Design et mise en forme</p>
+            </div>
+
+            <div class="carte">
+                <h3>PHP</h3>
+                <p>Développement web</p>
+            </div>
+
+            <div class="carte">
+                <h3>C</h3>
+                <p>Programmation</p>
+            </div>
+
+            <div class="carte">
+                <h3>VB.NET</h3>
+                <p>Applications Windows</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>
+            Vous pouvez me contacter pour échanger sur mes projets.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 - Mon Portfolio</p>
+    </footer>
+
+</body>
+</html>
